@@ -93,7 +93,7 @@ int main()
 {
     Point polygon1[] = {{0, 0}, {10, 0}, {10, 10}, {0, 10}};
     int n = sizeof(polygon1)/sizeof(polygon1[0]);
-    Point p = {20, 20};
+    Point p = {10, 20};
     inside(polygon1, n, p)? cout << "true \n": cout << "false \n";
     
     
